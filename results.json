@@ -49708,5 +49708,1490 @@
         }
       }
     ]
+  },
+  {
+    "match-id": 2389659,
+    "url": "https://hltv.org/matches/2389659/g2-vs-spirit-iem-krakw-2026",
+    "event": "IEM Kraków 2026",
+    "team1": "G2",
+    "team2": "Spirit",
+    "team1-id": 5995,
+    "team2-id": 7020,
+    "team1score": 1,
+    "team2score": 2,
+    "format": "Best of 3 (LAN)",
+    "stage": "Group A upper bracket final. Winner advances to semi-finals, losing team proceeds to quarter-finals.",
+    "veto": [
+      "1. G2 removed Nuke",
+      "2. Spirit removed Inferno",
+      "3. G2 picked Anubis",
+      "4. Spirit picked Overpass",
+      "5. G2 removed Mirage",
+      "6. Spirit removed Ancient",
+      "7. Dust2 was left over"
+    ],
+    "maps": [
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "G2",
+          "score": "8",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Spirit",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 5:4)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "HeavyGod",
+              "kd": "19-16",
+              "adr": "107.5",
+              "kast": "76.2%",
+              "rating": "1.28"
+            },
+            {
+              "name": "MATYS",
+              "kd": "13-17",
+              "adr": "62.5",
+              "kast": "81.0%",
+              "rating": "1.05"
+            },
+            {
+              "name": "SunPayus",
+              "kd": "13-15",
+              "adr": "62.4",
+              "kast": "71.4%",
+              "rating": "0.92"
+            },
+            {
+              "name": "malbsMd",
+              "kd": "11-16",
+              "adr": "57.9",
+              "kast": "66.7%",
+              "rating": "0.81"
+            },
+            {
+              "name": "huNter-",
+              "kd": "9-15",
+              "adr": "48.7",
+              "kast": "66.7%",
+              "rating": "0.61"
+            }
+          ],
+          "team2": [
+            {
+              "name": "donk",
+              "kd": "22-15",
+              "adr": "120.1",
+              "kast": "71.4%",
+              "rating": "1.58"
+            },
+            {
+              "name": "sh1ro",
+              "kd": "21-9",
+              "adr": "83.4",
+              "kast": "81.0%",
+              "rating": "1.48"
+            },
+            {
+              "name": "zont1x",
+              "kd": "13-13",
+              "adr": "72.2",
+              "kast": "81.0%",
+              "rating": "1.31"
+            },
+            {
+              "name": "tN1R",
+              "kd": "12-13",
+              "adr": "63.9",
+              "kast": "85.7%",
+              "rating": "1.04"
+            },
+            {
+              "name": "magixx",
+              "kd": "10-15",
+              "adr": "56.9",
+              "kast": "76.2%",
+              "rating": "0.80"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "G2",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Spirit",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(9:3; 4:5)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "malbsMd",
+              "kd": "25-12",
+              "adr": "104.0",
+              "kast": "76.2%",
+              "rating": "1.57"
+            },
+            {
+              "name": "MATYS",
+              "kd": "18-11",
+              "adr": "89.0",
+              "kast": "90.5%",
+              "rating": "1.50"
+            },
+            {
+              "name": "huNter-",
+              "kd": "14-14",
+              "adr": "89.9",
+              "kast": "76.2%",
+              "rating": "1.24"
+            },
+            {
+              "name": "HeavyGod",
+              "kd": "16-13",
+              "adr": "80.2",
+              "kast": "81.0%",
+              "rating": "1.16"
+            },
+            {
+              "name": "SunPayus",
+              "kd": "13-16",
+              "adr": "63.9",
+              "kast": "61.9%",
+              "rating": "0.95"
+            }
+          ],
+          "team2": [
+            {
+              "name": "sh1ro",
+              "kd": "22-15",
+              "adr": "110.2",
+              "kast": "76.2%",
+              "rating": "1.70"
+            },
+            {
+              "name": "zont1x",
+              "kd": "16-17",
+              "adr": "71.9",
+              "kast": "52.4%",
+              "rating": "1.18"
+            },
+            {
+              "name": "magixx",
+              "kd": "10-18",
+              "adr": "56.6",
+              "kast": "47.6%",
+              "rating": "0.79"
+            },
+            {
+              "name": "donk",
+              "kd": "9-18",
+              "adr": "58.0",
+              "kast": "57.1%",
+              "rating": "0.57"
+            },
+            {
+              "name": "tN1R",
+              "kd": "9-19",
+              "adr": "46.0",
+              "kast": "61.9%",
+              "rating": "0.55"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "G2",
+          "score": "13",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Spirit",
+          "score": "16",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 8:4) (1:4)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "SunPayus",
+              "kd": "26-19",
+              "adr": "83.4",
+              "kast": "72.4%",
+              "rating": "1.43"
+            },
+            {
+              "name": "MATYS",
+              "kd": "23-21",
+              "adr": "87.8",
+              "kast": "69.0%",
+              "rating": "1.35"
+            },
+            {
+              "name": "HeavyGod",
+              "kd": "17-18",
+              "adr": "59.1",
+              "kast": "72.4%",
+              "rating": "1.03"
+            },
+            {
+              "name": "malbsMd",
+              "kd": "19-22",
+              "adr": "62.3",
+              "kast": "62.1%",
+              "rating": "0.84"
+            },
+            {
+              "name": "huNter-",
+              "kd": "6-23",
+              "adr": "51.4",
+              "kast": "72.4%",
+              "rating": "0.48"
+            }
+          ],
+          "team2": [
+            {
+              "name": "donk",
+              "kd": "25-21",
+              "adr": "98.2",
+              "kast": "69.0%",
+              "rating": "1.40"
+            },
+            {
+              "name": "sh1ro",
+              "kd": "27-16",
+              "adr": "86.0",
+              "kast": "69.0%",
+              "rating": "1.21"
+            },
+            {
+              "name": "tN1R",
+              "kd": "18-21",
+              "adr": "87.0",
+              "kast": "75.9%",
+              "rating": "1.13"
+            },
+            {
+              "name": "zont1x",
+              "kd": "19-15",
+              "adr": "67.4",
+              "kast": "82.8%",
+              "rating": "0.98"
+            },
+            {
+              "name": "magixx",
+              "kd": "13-19",
+              "adr": "37.7",
+              "kast": "72.4%",
+              "rating": "0.81"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "match-id": 2389657,
+    "url": "https://hltv.org/matches/2389657/astralis-vs-furia-iem-krakw-2026",
+    "event": "IEM Kraków 2026",
+    "team1": "Astralis",
+    "team2": "FURIA",
+    "team1-id": 6665,
+    "team2-id": 8297,
+    "team1score": 1,
+    "team2score": 2,
+    "format": "Best of 3 (LAN)",
+    "stage": "Group A lower bracket final. Winner advances to quarter-finals, losing team is eliminated.",
+    "veto": [
+      "1. Astralis removed Anubis",
+      "2. FURIA removed Ancient",
+      "3. Astralis picked Overpass",
+      "4. FURIA picked Mirage",
+      "5. Astralis removed Dust2",
+      "6. FURIA removed Inferno",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "Astralis",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "FURIA",
+          "score": "8",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 6:3)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "Staehr",
+              "kd": "15-14",
+              "adr": "86.0",
+              "kast": "66.7%",
+              "rating": "1.47"
+            },
+            {
+              "name": "HooXi",
+              "kd": "16-11",
+              "adr": "81.3",
+              "kast": "81.0%",
+              "rating": "1.24"
+            },
+            {
+              "name": "ryu",
+              "kd": "15-12",
+              "adr": "78.3",
+              "kast": "76.2%",
+              "rating": "1.15"
+            },
+            {
+              "name": "jabbi",
+              "kd": "17-14",
+              "adr": "79.0",
+              "kast": "85.7%",
+              "rating": "1.14"
+            },
+            {
+              "name": "phzy",
+              "kd": "17-11",
+              "adr": "76.7",
+              "kast": "71.4%",
+              "rating": "1.07"
+            }
+          ],
+          "team2": [
+            {
+              "name": "yuurih",
+              "kd": "16-15",
+              "adr": "85.0",
+              "kast": "61.9%",
+              "rating": "1.29"
+            },
+            {
+              "name": "molodoy",
+              "kd": "18-15",
+              "adr": "69.6",
+              "kast": "81.0%",
+              "rating": "1.25"
+            },
+            {
+              "name": "KSCERATO",
+              "kd": "11-17",
+              "adr": "63.2",
+              "kast": "71.4%",
+              "rating": "0.75"
+            },
+            {
+              "name": "YEKINDAR",
+              "kd": "12-14",
+              "adr": "58.0",
+              "kast": "61.9%",
+              "rating": "0.66"
+            },
+            {
+              "name": "FalleN",
+              "kd": "5-19",
+              "adr": "58.0",
+              "kast": "52.4%",
+              "rating": "0.47"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Mirage",
+        "team1": {
+          "name": "Astralis",
+          "score": "11",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "FURIA",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(7:5; 4:8)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "Staehr",
+              "kd": "16-18",
+              "adr": "91.4",
+              "kast": "62.5%",
+              "rating": "1.20"
+            },
+            {
+              "name": "jabbi",
+              "kd": "19-18",
+              "adr": "76.2",
+              "kast": "70.8%",
+              "rating": "1.17"
+            },
+            {
+              "name": "phzy",
+              "kd": "16-15",
+              "adr": "64.2",
+              "kast": "62.5%",
+              "rating": "1.10"
+            },
+            {
+              "name": "ryu",
+              "kd": "11-16",
+              "adr": "52.7",
+              "kast": "66.7%",
+              "rating": "0.76"
+            },
+            {
+              "name": "HooXi",
+              "kd": "11-15",
+              "adr": "58.3",
+              "kast": "58.3%",
+              "rating": "0.74"
+            }
+          ],
+          "team2": [
+            {
+              "name": "KSCERATO",
+              "kd": "26-13",
+              "adr": "105.7",
+              "kast": "79.2%",
+              "rating": "1.80"
+            },
+            {
+              "name": "molodoy",
+              "kd": "20-14",
+              "adr": "88.8",
+              "kast": "87.5%",
+              "rating": "1.37"
+            },
+            {
+              "name": "FalleN",
+              "kd": "13-13",
+              "adr": "53.8",
+              "kast": "75.0%",
+              "rating": "1.02"
+            },
+            {
+              "name": "yuurih",
+              "kd": "15-16",
+              "adr": "70.1",
+              "kast": "79.2%",
+              "rating": "1.00"
+            },
+            {
+              "name": "YEKINDAR",
+              "kd": "8-17",
+              "adr": "53.4",
+              "kast": "58.3%",
+              "rating": "0.62"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Astralis",
+          "score": "9",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "FURIA",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(3:9; 6:4)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "ryu",
+              "kd": "16-16",
+              "adr": "75.6",
+              "kast": "72.7%",
+              "rating": "1.40"
+            },
+            {
+              "name": "Staehr",
+              "kd": "16-16",
+              "adr": "88.7",
+              "kast": "68.2%",
+              "rating": "1.18"
+            },
+            {
+              "name": "phzy",
+              "kd": "13-14",
+              "adr": "57.9",
+              "kast": "59.1%",
+              "rating": "0.82"
+            },
+            {
+              "name": "jabbi",
+              "kd": "8-16",
+              "adr": "46.5",
+              "kast": "50.0%",
+              "rating": "0.56"
+            },
+            {
+              "name": "HooXi",
+              "kd": "6-15",
+              "adr": "30.0",
+              "kast": "54.5%",
+              "rating": "0.50"
+            }
+          ],
+          "team2": [
+            {
+              "name": "molodoy",
+              "kd": "23-13",
+              "adr": "95.8",
+              "kast": "72.7%",
+              "rating": "1.45"
+            },
+            {
+              "name": "KSCERATO",
+              "kd": "21-12",
+              "adr": "93.7",
+              "kast": "68.2%",
+              "rating": "1.37"
+            },
+            {
+              "name": "FalleN",
+              "kd": "13-9",
+              "adr": "54.6",
+              "kast": "95.5%",
+              "rating": "1.21"
+            },
+            {
+              "name": "yuurih",
+              "kd": "9-10",
+              "adr": "62.2",
+              "kast": "77.3%",
+              "rating": "0.86"
+            },
+            {
+              "name": "YEKINDAR",
+              "kd": "11-15",
+              "adr": "57.0",
+              "kast": "54.5%",
+              "rating": "0.80"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "match-id": 2389730,
+    "url": "https://hltv.org/matches/2389730/arcred-vs-k27-exort-cataclysm-season-1",
+    "event": "Exort Cataclysm Season 1",
+    "team1": "ARCRED",
+    "team2": "K27",
+    "team1-id": 10459,
+    "team2-id": 12895,
+    "team1score": 1,
+    "team2score": 2,
+    "format": "Best of 3 (LAN)",
+    "stage": "Consolidation final",
+    "veto": [
+      "1. ARCRED removed Overpass",
+      "2. K27 removed Inferno",
+      "3. ARCRED picked Anubis",
+      "4. K27 picked Nuke",
+      "5. K27 removed Ancient",
+      "6. ARCRED removed Mirage",
+      "7. Dust2 was left over"
+    ],
+    "maps": [
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "ARCRED",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "K27",
+          "score": "5",
+          "status": "lost"
+        },
+        "half_scores": "(9:3; 4:2)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "DSSj",
+              "kd": "24-8",
+              "adr": "119.8",
+              "kast": "94.4%",
+              "rating": "2.37"
+            },
+            {
+              "name": "synyx",
+              "kd": "16-8",
+              "adr": "91.1",
+              "kast": "77.8%",
+              "rating": "1.54"
+            },
+            {
+              "name": "Ryujin",
+              "kd": "17-11",
+              "adr": "99.4",
+              "kast": "77.8%",
+              "rating": "1.39"
+            },
+            {
+              "name": "Get_Jeka",
+              "kd": "9-12",
+              "adr": "51.8",
+              "kast": "88.9%",
+              "rating": "0.90"
+            },
+            {
+              "name": "Raijin",
+              "kd": "9-12",
+              "adr": "66.6",
+              "kast": "83.3%",
+              "rating": "0.67"
+            }
+          ],
+          "team2": [
+            {
+              "name": "xeedo",
+              "kd": "16-14",
+              "adr": "81.1",
+              "kast": "72.2%",
+              "rating": "1.67"
+            },
+            {
+              "name": "qw1nk1",
+              "kd": "10-15",
+              "adr": "69.8",
+              "kast": "72.2%",
+              "rating": "0.87"
+            },
+            {
+              "name": "X5G7V",
+              "kd": "11-16",
+              "adr": "56.3",
+              "kast": "38.9%",
+              "rating": "0.70"
+            },
+            {
+              "name": "relaxxie",
+              "kd": "9-17",
+              "adr": "65.6",
+              "kast": "50.0%",
+              "rating": "0.61"
+            },
+            {
+              "name": "kashl1d",
+              "kd": "5-15",
+              "adr": "39.9",
+              "kast": "50.0%",
+              "rating": "0.45"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ARCRED",
+          "score": "10",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "K27",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(2:10; 8:3)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "Get_Jeka",
+              "kd": "20-15",
+              "adr": "84.0",
+              "kast": "73.9%",
+              "rating": "1.16"
+            },
+            {
+              "name": "Raijin",
+              "kd": "16-16",
+              "adr": "73.0",
+              "kast": "65.2%",
+              "rating": "1.05"
+            },
+            {
+              "name": "Ryujin",
+              "kd": "15-20",
+              "adr": "86.8",
+              "kast": "78.3%",
+              "rating": "1.05"
+            },
+            {
+              "name": "synyx",
+              "kd": "15-17",
+              "adr": "60.2",
+              "kast": "65.2%",
+              "rating": "1.00"
+            },
+            {
+              "name": "DSSj",
+              "kd": "11-15",
+              "adr": "60.0",
+              "kast": "56.5%",
+              "rating": "0.61"
+            }
+          ],
+          "team2": [
+            {
+              "name": "xeedo",
+              "kd": "20-17",
+              "adr": "96.9",
+              "kast": "78.3%",
+              "rating": "1.50"
+            },
+            {
+              "name": "relaxxie",
+              "kd": "19-15",
+              "adr": "90.8",
+              "kast": "78.3%",
+              "rating": "1.45"
+            },
+            {
+              "name": "qw1nk1",
+              "kd": "19-17",
+              "adr": "89.2",
+              "kast": "56.5%",
+              "rating": "1.33"
+            },
+            {
+              "name": "kashl1d",
+              "kd": "14-13",
+              "adr": "64.7",
+              "kast": "78.3%",
+              "rating": "1.03"
+            },
+            {
+              "name": "X5G7V",
+              "kd": "11-17",
+              "adr": "53.4",
+              "kast": "69.6%",
+              "rating": "0.85"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "ARCRED",
+          "score": "13",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "K27",
+          "score": "16",
+          "status": "won"
+        },
+        "half_scores": "(10:2; 2:10) (1:4)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "Raijin",
+              "kd": "23-17",
+              "adr": "81.7",
+              "kast": "75.9%",
+              "rating": "1.26"
+            },
+            {
+              "name": "Ryujin",
+              "kd": "19-22",
+              "adr": "69.5",
+              "kast": "58.6%",
+              "rating": "1.06"
+            },
+            {
+              "name": "DSSj",
+              "kd": "21-16",
+              "adr": "75.2",
+              "kast": "65.5%",
+              "rating": "1.04"
+            },
+            {
+              "name": "synyx",
+              "kd": "18-18",
+              "adr": "69.6",
+              "kast": "69.0%",
+              "rating": "0.91"
+            },
+            {
+              "name": "Get_Jeka",
+              "kd": "10-18",
+              "adr": "57.8",
+              "kast": "72.4%",
+              "rating": "0.61"
+            }
+          ],
+          "team2": [
+            {
+              "name": "kashl1d",
+              "kd": "21-17",
+              "adr": "84.2",
+              "kast": "72.4%",
+              "rating": "1.40"
+            },
+            {
+              "name": "X5G7V",
+              "kd": "18-18",
+              "adr": "68.8",
+              "kast": "72.4%",
+              "rating": "1.19"
+            },
+            {
+              "name": "xeedo",
+              "kd": "19-19",
+              "adr": "69.4",
+              "kast": "69.0%",
+              "rating": "1.18"
+            },
+            {
+              "name": "qw1nk1",
+              "kd": "20-21",
+              "adr": "69.1",
+              "kast": "79.3%",
+              "rating": "0.99"
+            },
+            {
+              "name": "relaxxie",
+              "kd": "12-16",
+              "adr": "45.6",
+              "kast": "58.6%",
+              "rating": "0.75"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "match-id": 2389765,
+    "url": "https://hltv.org/matches/2389765/shinden-vs-9z-cct-season-3-south-america-series-8",
+    "event": "CCT Season 3 South America Series 8",
+    "team1": "ShindeN",
+    "team2": "9z",
+    "team1-id": 12959,
+    "team2-id": 9996,
+    "team1score": 1,
+    "team2score": 2,
+    "format": "Best of 3 (Online)",
+    "stage": "Swiss round 1",
+    "veto": [
+      "1. 9z removed Mirage",
+      "2. ShindeN removed Dust2",
+      "3. 9z picked Overpass",
+      "4. ShindeN picked Ancient",
+      "5. 9z removed Anubis",
+      "6. ShindeN removed Inferno",
+      "7. Nuke was left over"
+    ],
+    "maps": [
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "ShindeN",
+          "score": "16",
+          "status": "won"
+        },
+        "team2": {
+          "name": "9z",
+          "score": "13",
+          "status": "lost"
+        },
+        "half_scores": "(7:5; 5:7) (4:1)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "nacho",
+              "kd": "19-21",
+              "adr": "68.4",
+              "kast": "55.2%",
+              "rating": "1.23"
+            },
+            {
+              "name": "naz",
+              "kd": "22-19",
+              "adr": "68.1",
+              "kast": "69.0%",
+              "rating": "1.22"
+            },
+            {
+              "name": "tom1jed",
+              "kd": "19-21",
+              "adr": "76.2",
+              "kast": "65.5%",
+              "rating": "1.06"
+            },
+            {
+              "name": "abizz",
+              "kd": "18-22",
+              "adr": "76.5",
+              "kast": "58.6%",
+              "rating": "1.04"
+            },
+            {
+              "name": "ivz",
+              "kd": "13-16",
+              "adr": "57.0",
+              "kast": "72.4%",
+              "rating": "1.04"
+            }
+          ],
+          "team2": [
+            {
+              "name": "luchov",
+              "kd": "26-18",
+              "adr": "103.7",
+              "kast": "79.3%",
+              "rating": "1.46"
+            },
+            {
+              "name": "dgt",
+              "kd": "26-20",
+              "adr": "88.5",
+              "kast": "79.3%",
+              "rating": "1.12"
+            },
+            {
+              "name": "HUASOPEEK",
+              "kd": "18-15",
+              "adr": "65.8",
+              "kast": "79.3%",
+              "rating": "0.92"
+            },
+            {
+              "name": "max",
+              "kd": "14-21",
+              "adr": "58.6",
+              "kast": "69.0%",
+              "rating": "0.78"
+            },
+            {
+              "name": "meyern",
+              "kd": "14-19",
+              "adr": "53.1",
+              "kast": "69.0%",
+              "rating": "0.76"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "ShindeN",
+          "score": "5",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "9z",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 1:5)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "ivz",
+              "kd": "18-14",
+              "adr": "104.8",
+              "kast": "55.6%",
+              "rating": "1.61"
+            },
+            {
+              "name": "nacho",
+              "kd": "12-14",
+              "adr": "60.1",
+              "kast": "66.7%",
+              "rating": "0.82"
+            },
+            {
+              "name": "abizz",
+              "kd": "6-16",
+              "adr": "50.6",
+              "kast": "72.2%",
+              "rating": "0.71"
+            },
+            {
+              "name": "naz",
+              "kd": "6-15",
+              "adr": "46.6",
+              "kast": "50.0%",
+              "rating": "0.55"
+            },
+            {
+              "name": "tom1jed",
+              "kd": "7-14",
+              "adr": "55.6",
+              "kast": "55.6%",
+              "rating": "0.49"
+            }
+          ],
+          "team2": [
+            {
+              "name": "dgt",
+              "kd": "19-9",
+              "adr": "116.8",
+              "kast": "72.2%",
+              "rating": "1.60"
+            },
+            {
+              "name": "luchov",
+              "kd": "19-10",
+              "adr": "114.7",
+              "kast": "83.3%",
+              "rating": "1.46"
+            },
+            {
+              "name": "meyern",
+              "kd": "13-10",
+              "adr": "71.5",
+              "kast": "83.3%",
+              "rating": "1.25"
+            },
+            {
+              "name": "max",
+              "kd": "10-8",
+              "adr": "50.4",
+              "kast": "88.9%",
+              "rating": "1.23"
+            },
+            {
+              "name": "HUASOPEEK",
+              "kd": "12-12",
+              "adr": "66.9",
+              "kast": "66.7%",
+              "rating": "0.97"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "ShindeN",
+          "score": "10",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "9z",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(7:5; 3:8)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "tom1jed",
+              "kd": "17-14",
+              "adr": "78.7",
+              "kast": "73.9%",
+              "rating": "1.29"
+            },
+            {
+              "name": "abizz",
+              "kd": "17-13",
+              "adr": "71.4",
+              "kast": "73.9%",
+              "rating": "1.14"
+            },
+            {
+              "name": "naz",
+              "kd": "18-17",
+              "adr": "82.8",
+              "kast": "78.3%",
+              "rating": "1.12"
+            },
+            {
+              "name": "nacho",
+              "kd": "17-16",
+              "adr": "80.6",
+              "kast": "52.2%",
+              "rating": "0.99"
+            },
+            {
+              "name": "ivz",
+              "kd": "8-15",
+              "adr": "54.1",
+              "kast": "60.9%",
+              "rating": "0.63"
+            }
+          ],
+          "team2": [
+            {
+              "name": "luchov",
+              "kd": "16-15",
+              "adr": "71.6",
+              "kast": "65.2%",
+              "rating": "1.20"
+            },
+            {
+              "name": "meyern",
+              "kd": "16-13",
+              "adr": "71.4",
+              "kast": "60.9%",
+              "rating": "1.18"
+            },
+            {
+              "name": "max",
+              "kd": "13-15",
+              "adr": "67.1",
+              "kast": "69.6%",
+              "rating": "1.17"
+            },
+            {
+              "name": "HUASOPEEK",
+              "kd": "16-18",
+              "adr": "72.7",
+              "kast": "65.2%",
+              "rating": "1.07"
+            },
+            {
+              "name": "dgt",
+              "kd": "12-16",
+              "adr": "61.5",
+              "kast": "65.2%",
+              "rating": "0.81"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "match-id": 2389230,
+    "url": "https://hltv.org/matches/2389230/sashi-vs-am-nodwin-clutch-series-4",
+    "event": "NODWIN Clutch Series 4",
+    "team1": "Sashi",
+    "team2": "AM",
+    "team1-id": 11712,
+    "team2-id": 13237,
+    "team1score": 1,
+    "team2score": 2,
+    "format": "Best of 3 (Online)",
+    "stage": "Round of 16",
+    "veto": [
+      "1. AM removed Inferno",
+      "2. Sashi removed Dust2",
+      "3. AM picked Ancient",
+      "4. Sashi picked Nuke",
+      "5. AM removed Anubis",
+      "6. Sashi removed Mirage",
+      "7. Overpass was left over"
+    ],
+    "maps": [
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "Sashi",
+          "score": "11",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "AM",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 6:6)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "Cabbi",
+              "kd": "23-19",
+              "adr": "93.3",
+              "kast": "70.8%",
+              "rating": "1.34"
+            },
+            {
+              "name": "MistR",
+              "kd": "17-18",
+              "adr": "71.8",
+              "kast": "83.3%",
+              "rating": "1.14"
+            },
+            {
+              "name": "acoR",
+              "kd": "14-16",
+              "adr": "54.8",
+              "kast": "62.5%",
+              "rating": "0.94"
+            },
+            {
+              "name": "Beccie",
+              "kd": "11-16",
+              "adr": "61.5",
+              "kast": "66.7%",
+              "rating": "0.84"
+            },
+            {
+              "name": "Zyphon",
+              "kd": "8-21",
+              "adr": "51.7",
+              "kast": "58.3%",
+              "rating": "0.50"
+            }
+          ],
+          "team2": [
+            {
+              "name": "pxsl",
+              "kd": "18-11",
+              "adr": "65.9",
+              "kast": "79.2%",
+              "rating": "1.35"
+            },
+            {
+              "name": "Altekz",
+              "kd": "22-16",
+              "adr": "91.5",
+              "kast": "83.3%",
+              "rating": "1.23"
+            },
+            {
+              "name": "kyuubii",
+              "kd": "18-15",
+              "adr": "75.8",
+              "kast": "87.5%",
+              "rating": "1.10"
+            },
+            {
+              "name": "delle",
+              "kd": "16-17",
+              "adr": "79.0",
+              "kast": "95.8%",
+              "rating": "1.03"
+            },
+            {
+              "name": "k1to",
+              "kd": "15-14",
+              "adr": "77.6",
+              "kast": "79.2%",
+              "rating": "1.03"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Sashi",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "AM",
+          "score": "9",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:3)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "acoR",
+              "kd": "25-13",
+              "adr": "101.8",
+              "kast": "77.3%",
+              "rating": "1.70"
+            },
+            {
+              "name": "Cabbi",
+              "kd": "21-13",
+              "adr": "95.5",
+              "kast": "86.4%",
+              "rating": "1.42"
+            },
+            {
+              "name": "Zyphon",
+              "kd": "19-15",
+              "adr": "84.0",
+              "kast": "86.4%",
+              "rating": "1.28"
+            },
+            {
+              "name": "MistR",
+              "kd": "11-15",
+              "adr": "65.1",
+              "kast": "86.4%",
+              "rating": "0.96"
+            },
+            {
+              "name": "Beccie",
+              "kd": "9-13",
+              "adr": "51.3",
+              "kast": "72.7%",
+              "rating": "0.81"
+            }
+          ],
+          "team2": [
+            {
+              "name": "k1to",
+              "kd": "17-16",
+              "adr": "89.4",
+              "kast": "77.3%",
+              "rating": "1.44"
+            },
+            {
+              "name": "delle",
+              "kd": "18-17",
+              "adr": "81.7",
+              "kast": "68.2%",
+              "rating": "1.17"
+            },
+            {
+              "name": "Altekz",
+              "kd": "17-16",
+              "adr": "57.6",
+              "kast": "68.2%",
+              "rating": "0.98"
+            },
+            {
+              "name": "kyuubii",
+              "kd": "11-20",
+              "adr": "66.8",
+              "kast": "68.2%",
+              "rating": "0.70"
+            },
+            {
+              "name": "pxsl",
+              "kd": "6-16",
+              "adr": "49.9",
+              "kast": "72.7%",
+              "rating": "0.58"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "Sashi",
+          "score": "9",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "AM",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(4:8; 5:5)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "Beccie",
+              "kd": "15-15",
+              "adr": "85.6",
+              "kast": "54.5%",
+              "rating": "1.16"
+            },
+            {
+              "name": "Cabbi",
+              "kd": "17-17",
+              "adr": "86.1",
+              "kast": "68.2%",
+              "rating": "0.99"
+            },
+            {
+              "name": "Zyphon",
+              "kd": "14-18",
+              "adr": "75.7",
+              "kast": "72.7%",
+              "rating": "0.97"
+            },
+            {
+              "name": "MistR",
+              "kd": "13-17",
+              "adr": "80.2",
+              "kast": "68.2%",
+              "rating": "0.88"
+            },
+            {
+              "name": "acoR",
+              "kd": "11-12",
+              "adr": "52.7",
+              "kast": "72.7%",
+              "rating": "0.82"
+            }
+          ],
+          "team2": [
+            {
+              "name": "delle",
+              "kd": "22-12",
+              "adr": "100.5",
+              "kast": "86.4%",
+              "rating": "1.62"
+            },
+            {
+              "name": "k1to",
+              "kd": "18-15",
+              "adr": "87.8",
+              "kast": "86.4%",
+              "rating": "1.30"
+            },
+            {
+              "name": "kyuubii",
+              "kd": "16-14",
+              "adr": "84.2",
+              "kast": "68.2%",
+              "rating": "1.10"
+            },
+            {
+              "name": "pxsl",
+              "kd": "13-14",
+              "adr": "58.5",
+              "kast": "68.2%",
+              "rating": "0.93"
+            },
+            {
+              "name": "Altekz",
+              "kd": "10-15",
+              "adr": "46.5",
+              "kast": "72.7%",
+              "rating": "0.69"
+            }
+          ]
+        }
+      }
+    ]
   }
 ]

@@ -4,18 +4,18 @@
     "matches_with_odds": 0,
     "bookmakers": {},
     "teams": {},
-    "last_updated": "2026-02-03T17:44:07.836167"
+    "last_updated": "2026-02-03T20:28:16.845249"
   },
   "results": {
-    "total_matches": 202,
-    "enriched_matches": 202,
+    "total_matches": 207,
+    "enriched_matches": 207,
     "events": {
-      "Exort Cataclysm Season 1": 32,
+      "Exort Cataclysm Season 1": 33,
       "FiRe CONTER Season 1": 27,
       "CCT Season 3 Europe Series 14": 24,
-      "IEM Kraków 2026": 20,
+      "IEM Kraków 2026": 22,
+      "NODWIN Clutch Series 4": 20,
       "IEM Kraków 2026 Stage 1": 20,
-      "NODWIN Clutch Series 4": 19,
       "European Pro League Series 4": 13,
       "DFRAG Open Series 3": 10,
       "CCT Season 3 Europe Series 13": 10,
@@ -23,18 +23,18 @@
     },
     "teams": {
       "ex-RUBY": 11,
-      "ARCRED": 9,
+      "ARCRED": 10,
       "Nemiga": 9,
       "1win": 9,
       "FAVBET": 9,
       "Nemesis": 8,
+      "Astralis": 7,
+      "K27": 7,
       "Nuclear TigeRES": 7,
       "magic": 7,
       "BET-M": 7,
       "Fingers Crossed": 7,
       "FUT": 6,
-      "Astralis": 6,
-      "K27": 6,
       "Oramond": 6,
       "WHITEBIRD": 6,
       "FORZE Reload": 6,
@@ -48,17 +48,17 @@
       "latest": null
     },
     "maps_played": {
-      "Dust2": 107,
-      "Nuke": 104,
-      "Ancient": 99,
-      "Mirage": 95,
+      "Dust2": 109,
+      "Nuke": 108,
+      "Ancient": 101,
+      "Mirage": 96,
+      "Overpass": 70,
       "Inferno": 66,
-      "Overpass": 66,
-      "Anubis": 47,
+      "Anubis": 49,
       "Default": 9,
       "Train": 1
     },
-    "last_updated": "2026-02-03T17:44:07.846763"
+    "last_updated": "2026-02-03T20:28:16.854815"
   },
-  "generated_at": "2026-02-03T17:44:07.847801"
+  "generated_at": "2026-02-03T20:28:16.856108"
 }
