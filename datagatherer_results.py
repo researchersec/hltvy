@@ -12,8 +12,8 @@ import tzlocal
 
 # ================== CONFIG ================== #
 
-MAX_RUNTIME_SECONDS = 60 * 295
-MAX_RESULTS_OFFSET = 100
+MAX_RUNTIME_SECONDS = 60 * 300
+MAX_RESULTS_OFFSET = 23000
 
 STATE_FILE = "scrape_state.json"
 RESULTS_FILE = "results.json"
@@ -118,71 +118,148 @@ def _month_to_number(name):
         name = "August"
     return datetime.datetime.strptime(name, "%B").month
 
+# ================== RESULTS SAVING ================== #
+
+def load_existing_results():
+    """Load existing results from file."""
+    if os.path.exists(RESULTS_FILE):
+        try:
+            with open(RESULTS_FILE, "r", encoding="utf-8") as f:
+                existing = json.load(f)
+                if isinstance(existing, list):
+                    return existing
+        except (json.JSONDecodeError, FileNotFoundError):
+            logging.warning("Could not load existing results, starting fresh")
+    return []
+
+def save_results_incremental(results):
+    """Save results incrementally to avoid data loss."""
+    try:
+        with open(RESULTS_FILE, "w", encoding="utf-8") as f:
+            json.dump(results, f, indent=2, ensure_ascii=False)
+        logging.info(f"Saved {len(results)} results to {RESULTS_FILE}")
+        return True
+    except Exception as e:
+        logging.error(f"Failed to save results: {e}")
+        return False
+
 # ================== RESULTS ================== #
 
 def get_results(state):
-    results = []
-    existing_ids = set()
+    # Load existing results to avoid duplicates and preserve data
+    all_results = load_existing_results()
+    existing_ids = {result.get("match-id") for result in all_results if result.get("match-id")}
+    
+    new_results = []
     offset = state["results_offset"]
+    save_counter = 0
+
+    logging.info(f"Starting from offset {offset}, existing results: {len(all_results)}")
 
     while offset <= MAX_RESULTS_OFFSET and not time_exceeded():
-        logging.info(f"Results offset {offset}")
+        logging.info(f"Processing results offset {offset}")
         page = get_parsed_page(f"https://www.hltv.org/results?offset={offset}")
         if not page:
+            logging.warning(f"Failed to get page for offset {offset}")
             break
 
+        page_results = []
         for section in page.find_all("div", class_="results-holder"):
             for res in section.find_all("div", class_="result-con"):
-                href = res.find("a", class_="a-reset")["href"]
-                match_id = converters.to_int(href.split("/")[-2])
+                try:
+                    href = res.find("a", class_="a-reset")["href"]
+                    match_id = converters.to_int(href.split("/")[-2])
 
-                if match_id in existing_ids:
+                    # Skip if we already have this match
+                    if match_id in existing_ids:
+                        continue
+
+                    entry = {
+                        "match-id": match_id,
+                        "url": "https://hltv.org" + href,
+                    }
+
+                    # Parse date
+                    headline = section.find("span", class_="standard-headline")
+                    if headline:
+                        txt = headline.text.replace("Results for ", "")
+                        for s in ["th", "rd", "st", "nd"]:
+                            txt = txt.replace(s, "")
+                        try:
+                            m, d, y = txt.split()
+                            dt = datetime.datetime(
+                                int(y),
+                                _month_to_number(m),
+                                int(d),
+                                tzinfo=HLTV_ZONEINFO,
+                            ).astimezone(LOCAL_ZONEINFO)
+                            entry["date"] = dt.strftime("%Y-%m-%d")
+                        except Exception as e:
+                            logging.warning(f"Failed to parse date '{txt}': {e}")
+
+                    # Parse event
+                    event = res.find("td", class_="event") or res.find(
+                        "td", class_="placeholder-text-cell"
+                    )
+                    entry["event"] = event.text.strip() if event else None
+
+                    # Parse teams and scores
+                    teams = res.find_all("td", class_="team-cell")
+                    if len(teams) == 2:
+                        entry["team1"] = teams[0].text.strip()
+                        entry["team2"] = teams[1].text.strip()
+                        entry["team1-id"] = _findTeamId(entry["team1"])
+                        entry["team2-id"] = _findTeamId(entry["team2"])
+
+                        score_element = res.find("td", class_="result-score")
+                        if score_element:
+                            scores = score_element.find_all("span")
+                            if len(scores) >= 2:
+                                entry["team1score"] = converters.to_int(scores[0].text)
+                                entry["team2score"] = converters.to_int(scores[1].text)
+
+                    page_results.append(entry)
+                    existing_ids.add(match_id)
+                    
+                except Exception as e:
+                    logging.warning(f"Failed to parse match at offset {offset}: {e}")
                     continue
 
-                entry = {
-                    "match-id": match_id,
-                    "url": "https://hltv.org" + href,
-                }
+        # Add new results from this page
+        new_results.extend(page_results)
+        all_results.extend(page_results)
+        
+        logging.info(f"Found {len(page_results)} new matches at offset {offset}")
 
-                headline = section.find("span", class_="standard-headline")
-                if headline:
-                    txt = headline.text.replace("Results for ", "")
-                    for s in ["th", "rd", "st", "nd"]:
-                        txt = txt.replace(s, "")
-                    m, d, y = txt.split()
-                    dt = datetime.datetime(
-                        int(y),
-                        _month_to_number(m),
-                        int(d),
-                        tzinfo=HLTV_ZONEINFO,
-                    ).astimezone(LOCAL_ZONEINFO)
-                    entry["date"] = dt.strftime("%Y-%m-%d")
+        # Save every 500 new results or every 10 pages to prevent data loss
+        save_counter += 1
+        if len(new_results) >= 500 or save_counter >= 10:
+            if save_results_incremental(all_results):
+                logging.info(f"Incremental save: {len(new_results)} new results, {len(all_results)} total")
+                save_counter = 0
+            else:
+                logging.error("Failed incremental save - continuing anyway")
 
-                event = res.find("td", class_="event") or res.find(
-                    "td", class_="placeholder-text-cell"
-                )
-                entry["event"] = event.text.strip() if event else None
-
-                teams = res.find_all("td", class_="team-cell")
-                if len(teams) == 2:
-                    entry["team1"] = teams[0].text.strip()
-                    entry["team2"] = teams[1].text.strip()
-                    entry["team1-id"] = _findTeamId(entry["team1"])
-                    entry["team2-id"] = _findTeamId(entry["team2"])
-
-                    scores = res.find("td", class_="result-score").find_all("span")
-                    entry["team1score"] = converters.to_int(scores[0].text)
-                    entry["team2score"] = converters.to_int(scores[1].text)
-
-                results.append(entry)
-                existing_ids.add(match_id)
-
+        # Update offset and save state
         offset += 100
         state["results_offset"] = offset
         save_state(state)
         time.sleep(1)
 
-    return results
+    # Final save
+    if new_results:
+        save_results_incremental(all_results)
+        logging.info(f"Final save: {len(new_results)} new results collected")
+    
+    # Check if we reached the limit
+    if offset > MAX_RESULTS_OFFSET:
+        logging.info(f"Reached maximum offset {MAX_RESULTS_OFFSET}")
+        # Reset offset to start over next time if needed
+        state["results_offset"] = 0
+        save_state(state)
+        logging.info("Reset offset to 0 for next run")
+
+    return all_results
 
 # ================== MATCH DETAILS ================== #
 
@@ -296,8 +373,9 @@ def parse_player_stats(soup):
 
 def enrich_results(results, state):
     enriched_ids = state["enriched_match_ids"]
+    enrichment_counter = 0
 
-    for match in results:
+    for i, match in enumerate(results):
         if time_exceeded():
             logging.warning("Time limit reached during enrichment")
             break
@@ -306,7 +384,7 @@ def enrich_results(results, state):
         if enriched_ids.get(match_id):
             continue
 
-        logging.info(f"Enriching match {match_id}")
+        logging.info(f"Enriching match {match_id} ({i+1}/{len(results)})")
 
         soup = get_parsed_page(match["url"])
         if not soup:
@@ -314,32 +392,84 @@ def enrich_results(results, state):
             save_state(state)
             continue
 
-        match.update(parse_match_details(soup))
+        try:
+            # Parse match details
+            match_details = parse_match_details(soup)
+            match.update(match_details)
 
-        player_stats = parse_player_stats(soup)
-        for m in match.get("maps", []):
-            m["players"] = player_stats.get(
-                m["map"], {"team1": [], "team2": []}
-            )
+            # Parse player statistics
+            player_stats = parse_player_stats(soup)
+            for m in match.get("maps", []):
+                m["players"] = player_stats.get(
+                    m["map"], {"team1": [], "team2": []}
+                )
 
-        enriched_ids[match_id] = True
+            enriched_ids[match_id] = True
+            enrichment_counter += 1
+            
+            # Save state every 50 enrichments to prevent loss
+            if enrichment_counter % 50 == 0:
+                save_state(state)
+                # Also save results to prevent data loss
+                save_results_incremental(results)
+                logging.info(f"Incremental save after {enrichment_counter} enrichments")
+            
+        except Exception as e:
+            logging.error(f"Failed to enrich match {match_id}: {e}")
+            match["enrich_failed"] = True
+        
         save_state(state)
         time.sleep(0.1)
+
+    # Final save after enrichment
+    if enrichment_counter > 0:
+        save_results_incremental(results)
+        logging.info(f"Enrichment completed: {enrichment_counter} matches enriched")
 
     return results
 
 # ================== MAIN ================== #
 
 def main():
+    logging.info("Starting data collection...")
+    
     state = load_state()
-    results = get_results(state)
-    results = enrich_results(results, state)
-
-    with open(RESULTS_FILE, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=4, ensure_ascii=False)
-
-    save_state(state)
-    logging.info("Run completed successfully")
+    
+    # Log initial state
+    logging.info(f"Initial state - Offset: {state['results_offset']}, Enriched IDs: {len(state.get('enriched_match_ids', {}))}")
+    
+    try:
+        # Get results (this now handles incremental saving)
+        results = get_results(state)
+        logging.info(f"Collected {len(results)} total results")
+        
+        # Enrich results (this also handles incremental saving)
+        results = enrich_results(results, state)
+        
+        # Final save (redundant but ensures everything is saved)
+        if results:
+            save_results_incremental(results)
+            logging.info(f"Final save completed: {len(results)} results")
+        
+        # Save final state
+        save_state(state)
+        logging.info("Run completed successfully")
+        
+    except KeyboardInterrupt:
+        logging.info("Script interrupted by user")
+        # Save current state before exiting
+        save_state(state)
+        if 'results' in locals() and results:
+            save_results_incremental(results)
+            logging.info("Saved data before exit")
+    except Exception as e:
+        logging.error(f"Script failed with error: {e}")
+        # Save current state before exiting
+        save_state(state)
+        if 'results' in locals() and results:
+            save_results_incremental(results)
+            logging.info("Saved data before error exit")
+        raise
 
 if __name__ == "__main__":
     main()
