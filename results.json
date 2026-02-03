@@ -49258,5 +49258,455 @@
         }
       }
     ]
+  },
+  {
+    "match-id": 2389560,
+    "url": "https://hltv.org/matches/2389560/hotu-vs-favbet-cct-season-3-europe-series-14",
+    "event": "CCT Season 3 Europe Series 14",
+    "team1": "HOTU",
+    "team2": "FAVBET",
+    "team1-id": 11581,
+    "team2-id": 12818,
+    "team1score": 0,
+    "team2score": 2,
+    "format": "Best of 3 (Online)",
+    "stage": "Round of 16",
+    "veto": [
+      "1. FAVBET removed Mirage",
+      "2. HOTU removed Inferno",
+      "3. FAVBET picked Anubis",
+      "4. HOTU picked Overpass",
+      "5. FAVBET removed Nuke",
+      "6. HOTU removed Ancient",
+      "7. Dust2 was left over"
+    ],
+    "maps": [
+      {
+        "map": "Anubis",
+        "team1": {
+          "name": "HOTU",
+          "score": "10",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "FAVBET",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 5:6)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "n0rb3r7",
+              "kd": "17-16",
+              "adr": "87.0",
+              "kast": "69.6%",
+              "rating": "1.28"
+            },
+            {
+              "name": "frontales",
+              "kd": "17-15",
+              "adr": "67.0",
+              "kast": "60.9%",
+              "rating": "1.12"
+            },
+            {
+              "name": "mizu",
+              "kd": "14-17",
+              "adr": "73.9",
+              "kast": "78.3%",
+              "rating": "1.00"
+            },
+            {
+              "name": "dukefissura",
+              "kd": "12-20",
+              "adr": "68.8",
+              "kast": "78.3%",
+              "rating": "0.79"
+            },
+            {
+              "name": "kAlash",
+              "kd": "11-19",
+              "adr": "50.6",
+              "kast": "43.5%",
+              "rating": "0.56"
+            }
+          ],
+          "team2": [
+            {
+              "name": "Marix",
+              "kd": "21-14",
+              "adr": "82.9",
+              "kast": "78.3%",
+              "rating": "1.67"
+            },
+            {
+              "name": "j3kie",
+              "kd": "23-15",
+              "adr": "92.9",
+              "kast": "60.9%",
+              "rating": "1.27"
+            },
+            {
+              "name": "Smash",
+              "kd": "17-15",
+              "adr": "85.9",
+              "kast": "82.6%",
+              "rating": "1.17"
+            },
+            {
+              "name": "s4ltovsk1yy",
+              "kd": "14-12",
+              "adr": "59.1",
+              "kast": "73.9%",
+              "rating": "0.93"
+            },
+            {
+              "name": "bondik",
+              "kd": "12-15",
+              "adr": "65.9",
+              "kast": "78.3%",
+              "rating": "0.90"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "HOTU",
+          "score": "9",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "FAVBET",
+          "score": "13",
+          "status": "won"
+        },
+        "half_scores": "(5:7; 4:6)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "kAlash",
+              "kd": "21-16",
+              "adr": "93.0",
+              "kast": "77.3%",
+              "rating": "1.43"
+            },
+            {
+              "name": "mizu",
+              "kd": "16-12",
+              "adr": "73.2",
+              "kast": "72.7%",
+              "rating": "1.23"
+            },
+            {
+              "name": "n0rb3r7",
+              "kd": "14-14",
+              "adr": "79.7",
+              "kast": "72.7%",
+              "rating": "1.14"
+            },
+            {
+              "name": "frontales",
+              "kd": "10-14",
+              "adr": "42.4",
+              "kast": "63.6%",
+              "rating": "0.47"
+            },
+            {
+              "name": "dukefissura",
+              "kd": "5-15",
+              "adr": "41.5",
+              "kast": "50.0%",
+              "rating": "0.42"
+            }
+          ],
+          "team2": [
+            {
+              "name": "Marix",
+              "kd": "18-11",
+              "adr": "83.4",
+              "kast": "77.3%",
+              "rating": "1.55"
+            },
+            {
+              "name": "s4ltovsk1yy",
+              "kd": "14-12",
+              "adr": "61.6",
+              "kast": "81.8%",
+              "rating": "1.20"
+            },
+            {
+              "name": "j3kie",
+              "kd": "13-15",
+              "adr": "66.8",
+              "kast": "72.7%",
+              "rating": "1.07"
+            },
+            {
+              "name": "bondik",
+              "kd": "12-12",
+              "adr": "58.3",
+              "kast": "63.6%",
+              "rating": "0.92"
+            },
+            {
+              "name": "Smash",
+              "kd": "13-16",
+              "adr": "68.2",
+              "kast": "68.2%",
+              "rating": "0.92"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Dust2",
+        "team1": {
+          "name": "HOTU",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "FAVBET",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played",
+        "players": {
+          "team1": [],
+          "team2": []
+        }
+      }
+    ]
+  },
+  {
+    "match-id": 2389819,
+    "url": "https://hltv.org/matches/2389819/aurora-young-blud-vs-rebels-cct-season-3-europe-series-15-closed-qualifier",
+    "event": "CCT Season 3 Europe Series 15 Closed Qualifier",
+    "team1": "Aurora Young Blud",
+    "team2": "Rebels",
+    "team1-id": 12366,
+    "team2-id": 6472,
+    "team1score": 2,
+    "team2score": 0,
+    "format": "Best of 3 (Online)",
+    "stage": "Group A winners' match",
+    "veto": [
+      "1. Aurora Young Blud removed Inferno",
+      "2. Rebels removed Mirage",
+      "3. Aurora Young Blud picked Ancient",
+      "4. Rebels picked Nuke",
+      "5. Aurora Young Blud removed Anubis",
+      "6. Rebels removed Dust2",
+      "7. Overpass was left over"
+    ],
+    "maps": [
+      {
+        "map": "Ancient",
+        "team1": {
+          "name": "Aurora Young Blud",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Rebels",
+          "score": "4",
+          "status": "lost"
+        },
+        "half_scores": "(8:4; 5:0)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "redzed",
+              "kd": "14-8",
+              "adr": "85.2",
+              "kast": "100.0%",
+              "rating": "1.61"
+            },
+            {
+              "name": "k1nco",
+              "kd": "12-7",
+              "adr": "69.7",
+              "kast": "82.4%",
+              "rating": "1.50"
+            },
+            {
+              "name": "meetyoxanaji",
+              "kd": "16-10",
+              "adr": "100.0",
+              "kast": "64.7%",
+              "rating": "1.48"
+            },
+            {
+              "name": "r1pa4",
+              "kd": "14-10",
+              "adr": "99.8",
+              "kast": "82.4%",
+              "rating": "1.32"
+            },
+            {
+              "name": "starmie",
+              "kd": "14-8",
+              "adr": "62.9",
+              "kast": "82.4%",
+              "rating": "1.30"
+            }
+          ],
+          "team2": [
+            {
+              "name": "stadodo",
+              "kd": "13-12",
+              "adr": "71.6",
+              "kast": "47.1%",
+              "rating": "1.26"
+            },
+            {
+              "name": "NOPEEJ",
+              "kd": "11-14",
+              "adr": "62.3",
+              "kast": "58.8%",
+              "rating": "0.76"
+            },
+            {
+              "name": "TMKj",
+              "kd": "7-15",
+              "adr": "56.0",
+              "kast": "58.8%",
+              "rating": "0.59"
+            },
+            {
+              "name": "Icarus",
+              "kd": "7-14",
+              "adr": "49.2",
+              "kast": "52.9%",
+              "rating": "0.51"
+            },
+            {
+              "name": "snapy",
+              "kd": "5-15",
+              "adr": "57.4",
+              "kast": "52.9%",
+              "rating": "0.41"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Nuke",
+        "team1": {
+          "name": "Aurora Young Blud",
+          "score": "13",
+          "status": "won"
+        },
+        "team2": {
+          "name": "Rebels",
+          "score": "11",
+          "status": "lost"
+        },
+        "half_scores": "(6:6; 7:5)",
+        "status": "played",
+        "players": {
+          "team1": [
+            {
+              "name": "redzed",
+              "kd": "21-11",
+              "adr": "94.1",
+              "kast": "87.5%",
+              "rating": "1.61"
+            },
+            {
+              "name": "starmie",
+              "kd": "19-14",
+              "adr": "68.4",
+              "kast": "70.8%",
+              "rating": "1.02"
+            },
+            {
+              "name": "meetyoxanaji",
+              "kd": "15-19",
+              "adr": "74.7",
+              "kast": "66.7%",
+              "rating": "0.97"
+            },
+            {
+              "name": "k1nco",
+              "kd": "17-18",
+              "adr": "74.4",
+              "kast": "79.2%",
+              "rating": "0.86"
+            },
+            {
+              "name": "r1pa4",
+              "kd": "13-17",
+              "adr": "69.3",
+              "kast": "75.0%",
+              "rating": "0.84"
+            }
+          ],
+          "team2": [
+            {
+              "name": "NOPEEJ",
+              "kd": "16-14",
+              "adr": "73.8",
+              "kast": "79.2%",
+              "rating": "1.36"
+            },
+            {
+              "name": "snapy",
+              "kd": "17-19",
+              "adr": "79.9",
+              "kast": "66.7%",
+              "rating": "1.14"
+            },
+            {
+              "name": "TMKj",
+              "kd": "15-15",
+              "adr": "59.3",
+              "kast": "70.8%",
+              "rating": "1.01"
+            },
+            {
+              "name": "stadodo",
+              "kd": "18-20",
+              "adr": "59.8",
+              "kast": "79.2%",
+              "rating": "0.96"
+            },
+            {
+              "name": "Icarus",
+              "kd": "12-18",
+              "adr": "71.9",
+              "kast": "75.0%",
+              "rating": "0.93"
+            }
+          ]
+        }
+      },
+      {
+        "map": "Overpass",
+        "team1": {
+          "name": "Aurora Young Blud",
+          "score": "-",
+          "status": "lost"
+        },
+        "team2": {
+          "name": "Rebels",
+          "score": "-",
+          "status": "lost"
+        },
+        "half_scores": "",
+        "status": "not_played",
+        "players": {
+          "team1": [],
+          "team2": []
+        }
+      }
+    ]
   }
 ]
