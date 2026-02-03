@@ -4,61 +4,61 @@
     "matches_with_odds": 0,
     "bookmakers": {},
     "teams": {},
-    "last_updated": "2026-02-03T20:28:16.845249"
+    "last_updated": "2026-02-03T23:57:09.572332"
   },
   "results": {
-    "total_matches": 207,
-    "enriched_matches": 207,
+    "total_matches": 214,
+    "enriched_matches": 214,
     "events": {
-      "Exort Cataclysm Season 1": 33,
+      "Exort Cataclysm Season 1": 34,
       "FiRe CONTER Season 1": 27,
-      "CCT Season 3 Europe Series 14": 24,
-      "IEM Kraków 2026": 22,
-      "NODWIN Clutch Series 4": 20,
+      "CCT Season 3 Europe Series 14": 25,
+      "IEM Kraków 2026": 24,
+      "NODWIN Clutch Series 4": 21,
       "IEM Kraków 2026 Stage 1": 20,
       "European Pro League Series 4": 13,
       "DFRAG Open Series 3": 10,
       "CCT Season 3 Europe Series 13": 10,
-      "CCT Season 3 Europe Series 15 Closed Qualifier": 7
+      "CCT Season 3 Europe Series 15 Closed Qualifier": 8
     },
     "teams": {
       "ex-RUBY": 11,
       "ARCRED": 10,
-      "Nemiga": 9,
+      "Nemiga": 10,
       "1win": 9,
       "FAVBET": 9,
+      "K27": 8,
       "Nemesis": 8,
+      "magic": 8,
+      "Fingers Crossed": 8,
       "Astralis": 7,
-      "K27": 7,
       "Nuclear TigeRES": 7,
-      "magic": 7,
       "BET-M": 7,
-      "Fingers Crossed": 7,
       "FUT": 6,
+      "Aurora": 6,
       "Oramond": 6,
       "WHITEBIRD": 6,
       "FORZE Reload": 6,
       "MOUZ NXT": 6,
       "RED Canids": 6,
-      "3DMAX": 5,
-      "BC.Game": 5
+      "3DMAX": 5
     },
     "date_range": {
       "earliest": null,
       "latest": null
     },
     "maps_played": {
-      "Dust2": 109,
-      "Nuke": 108,
-      "Ancient": 101,
-      "Mirage": 96,
-      "Overpass": 70,
-      "Inferno": 66,
-      "Anubis": 49,
+      "Dust2": 115,
+      "Nuke": 111,
+      "Ancient": 106,
+      "Mirage": 99,
+      "Overpass": 71,
+      "Inferno": 68,
+      "Anubis": 50,
       "Default": 9,
       "Train": 1
     },
-    "last_updated": "2026-02-03T20:28:16.854815"
+    "last_updated": "2026-02-03T23:57:09.583660"
   },
-  "generated_at": "2026-02-03T20:28:16.856108"
+  "generated_at": "2026-02-03T23:57:09.584731"
 }
