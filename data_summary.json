@@ -1,65 +1,65 @@
 {
-  "upcoming": {
-    "total_matches": 0,
-    "matches_with_odds": 0,
-    "bookmakers": {},
-    "teams": {},
-    "last_updated": "2026-02-04T20:59:28.430427"
-  },
+  "generated_at": "2026-02-04T20:59:28.550239",
   "results": {
-    "total_matches": 2118,
-    "enriched_matches": 2118,
-    "events": {
-      "Digital Crusade DraculaN Season 4": 50,
-      "Digital Crusade DraculaN Season 3": 50,
-      "CCT Season 3 Europe Series 13": 48,
-      "CCT Season 3 South America Series 7": 48,
-      "NODWIN Clutch Series 3": 48,
-      "CCT Season 3 Europe Series 12": 48,
-      "Galaxy Battle 2025 Phase 5": 48,
-      "CCT Season 3 Europe Series 11": 48,
-      "NODWIN Clutch Series 4": 45,
-      "CCT Season 3 Europe Series 14": 41
-    },
-    "teams": {
-      "FORZE Reload": 57,
-      "MOUZ NXT": 53,
-      "Nuclear TigeRES": 46,
-      "Oramond": 46,
-      "Eternal Fire": 44,
-      "ARCRED": 41,
-      "Nemiga": 40,
-      "AaB": 39,
-      "Johnny Speeds": 38,
-      "SPARTA": 38,
-      "K27": 36,
-      "illwill": 36,
-      "MASONIC": 35,
-      "GenOne": 34,
-      "NOVAQ": 34,
-      "9z": 32,
-      "Sharks": 32,
-      "MANA": 32,
-      "BASEMENT BOYS": 32,
-      "Sangal": 31
-    },
     "date_range": {
       "earliest": null,
       "latest": null
     },
+    "enriched_matches": 2118,
+    "events": {
+      "CCT Season 3 Europe Series 11": 48,
+      "CCT Season 3 Europe Series 12": 48,
+      "CCT Season 3 Europe Series 13": 48,
+      "CCT Season 3 Europe Series 14": 41,
+      "CCT Season 3 South America Series 7": 48,
+      "Digital Crusade DraculaN Season 3": 50,
+      "Digital Crusade DraculaN Season 4": 50,
+      "Galaxy Battle 2025 Phase 5": 48,
+      "NODWIN Clutch Series 3": 48,
+      "NODWIN Clutch Series 4": 45
+    },
+    "last_updated": "2026-02-04T20:59:28.536538",
     "maps_played": {
       "Ancient": 964,
-      "Mirage": 948,
-      "Dust2": 941,
-      "Nuke": 885,
-      "Inferno": 716,
-      "Overpass": 547,
-      "Train": 440,
       "Anubis": 155,
+      "Cobblestone": 1,
       "Default": 129,
-      "Cobblestone": 1
+      "Dust2": 941,
+      "Inferno": 716,
+      "Mirage": 948,
+      "Nuke": 885,
+      "Overpass": 547,
+      "Train": 440
     },
-    "last_updated": "2026-02-04T20:59:28.536538"
+    "teams": {
+      "9z": 32,
+      "ARCRED": 41,
+      "AaB": 39,
+      "BASEMENT BOYS": 32,
+      "Eternal Fire": 44,
+      "FORZE Reload": 57,
+      "GenOne": 34,
+      "Johnny Speeds": 38,
+      "K27": 36,
+      "MANA": 32,
+      "MASONIC": 35,
+      "MOUZ NXT": 53,
+      "NOVAQ": 34,
+      "Nemiga": 40,
+      "Nuclear TigeRES": 46,
+      "Oramond": 46,
+      "SPARTA": 38,
+      "Sangal": 31,
+      "Sharks": 32,
+      "illwill": 36
+    },
+    "total_matches": 2118
   },
-  "generated_at": "2026-02-04T20:59:28.550239"
+  "upcoming": {
+    "bookmakers": {},
+    "last_updated": "2026-02-04T20:59:28.430427",
+    "matches_with_odds": 0,
+    "teams": {},
+    "total_matches": 0
+  }
 }
