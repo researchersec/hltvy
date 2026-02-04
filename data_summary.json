@@ -4,11 +4,11 @@
     "matches_with_odds": 0,
     "bookmakers": {},
     "teams": {},
-    "last_updated": "2026-02-04T17:15:59.120083"
+    "last_updated": "2026-02-04T20:59:28.430427"
   },
   "results": {
-    "total_matches": 2111,
-    "enriched_matches": 2111,
+    "total_matches": 2118,
+    "enriched_matches": 2118,
     "events": {
       "Digital Crusade DraculaN Season 4": 50,
       "Digital Crusade DraculaN Season 3": 50,
@@ -18,14 +18,14 @@
       "CCT Season 3 Europe Series 12": 48,
       "Galaxy Battle 2025 Phase 5": 48,
       "CCT Season 3 Europe Series 11": 48,
-      "NODWIN Clutch Series 4": 43,
-      "PLAYR Masters Season 1": 40
+      "NODWIN Clutch Series 4": 45,
+      "CCT Season 3 Europe Series 14": 41
     },
     "teams": {
-      "FORZE Reload": 56,
+      "FORZE Reload": 57,
       "MOUZ NXT": 53,
+      "Nuclear TigeRES": 46,
       "Oramond": 46,
-      "Nuclear TigeRES": 45,
       "Eternal Fire": 44,
       "ARCRED": 41,
       "Nemiga": 40,
@@ -33,7 +33,7 @@
       "Johnny Speeds": 38,
       "SPARTA": 38,
       "K27": 36,
-      "illwill": 35,
+      "illwill": 36,
       "MASONIC": 35,
       "GenOne": 34,
       "NOVAQ": 34,
@@ -48,18 +48,18 @@
       "latest": null
     },
     "maps_played": {
-      "Ancient": 960,
-      "Mirage": 946,
-      "Dust2": 938,
-      "Nuke": 882,
-      "Inferno": 715,
-      "Overpass": 545,
+      "Ancient": 964,
+      "Mirage": 948,
+      "Dust2": 941,
+      "Nuke": 885,
+      "Inferno": 716,
+      "Overpass": 547,
       "Train": 440,
-      "Anubis": 152,
-      "Default": 128,
+      "Anubis": 155,
+      "Default": 129,
       "Cobblestone": 1
     },
-    "last_updated": "2026-02-04T17:15:59.229928"
+    "last_updated": "2026-02-04T20:59:28.536538"
   },
-  "generated_at": "2026-02-04T17:15:59.247025"
+  "generated_at": "2026-02-04T20:59:28.550239"
 }

@@ -4,7 +4,7 @@
 
 ## 📊 Current Statistics
 
-**Last Updated:** 2026-02-04 17:15:59 UTC
+**Last Updated:** 2026-02-04 20:59:28 UTC
 
 ### Upcoming Matches
 - **Total matches with odds:** 0/0
@@ -12,8 +12,8 @@
 - **Most frequent teams:** None
 
 ### Historical Results  
-- **Total matches collected:** 2,111
-- **Enriched with details:** 2,111 (100.0%)
+- **Total matches collected:** 2,118
+- **Enriched with details:** 2,118 (100.0%)
 - **Date range:** None to None
 - **Top events:** Digital Crusade DraculaN Season 4, Digital Crusade DraculaN Season 3, CCT Season 3 Europe Series 13
 - **Most played maps:** Ancient, Mirage, Dust2
