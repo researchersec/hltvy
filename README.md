@@ -4,7 +4,7 @@
 
 ## 📊 Current Statistics
 
-**Last Updated:** 2026-02-04 23:27:08 UTC
+**Last Updated:** 2026-02-05 02:30:12 UTC
 
 ### Upcoming Matches
 - **Total matches with odds:** 0/0
@@ -12,11 +12,11 @@
 - **Most frequent teams:** None
 
 ### Historical Results  
-- **Total matches collected:** 2,120
-- **Enriched with details:** 2,120 (100.0%)
-- **Date range:** 1770228900000 to 1770232200000
-- **Top events:** Digital Crusade DraculaN Season 4, Digital Crusade DraculaN Season 3, CCT Season 3 South America Series 7
-- **Most played maps:** Ancient, Mirage, Dust2
+- **Total matches collected:** 200
+- **Enriched with details:** 200 (100.0%)
+- **Date range:** 1769698800000 to 1770244200000
+- **Top events:** Exort Cataclysm Season 1, FiRe CONTER Season 1, IEM Kraków 2026
+- **Most played maps:** Nuke, Dust2, Ancient
 
 ## 🔄 Automation
 
