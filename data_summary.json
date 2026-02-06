@@ -4,11 +4,11 @@
     "matches_with_odds": 0,
     "bookmakers": {},
     "teams": {},
-    "last_updated": "2026-02-05T23:27:50.609546"
+    "last_updated": "2026-02-06T07:46:46.454508"
   },
   "results": {
-    "total_matches": 23114,
-    "enriched_matches": 3759,
+    "total_matches": 23121,
+    "enriched_matches": 5646,
     "events": {
       "ESL Challenger League Season 48 South America": 254,
       "ESL Challenger League Season 47 South America": 242,
@@ -38,28 +38,28 @@
       "Fluxo": 316,
       "Imperial": 311,
       "Passion UA": 310,
-      "ECSTATIC": 308,
+      "ECSTATIC": 309,
       "Aurora": 306,
       "CYBERSHOKE": 302,
       "Alliance": 291
     },
     "date_range": {
-      "earliest": 1758960000000,
+      "earliest": 1753872300000,
       "latest": 1770255000000
     },
     "maps_played": {
-      "Ancient": 1764,
-      "Dust2": 1691,
-      "Mirage": 1690,
-      "Nuke": 1606,
-      "Inferno": 1313,
-      "Overpass": 963,
-      "Train": 886,
-      "Default": 274,
+      "Ancient": 2686,
+      "Mirage": 2594,
+      "Dust2": 2552,
+      "Nuke": 2451,
+      "Inferno": 1953,
+      "Overpass": 1526,
+      "Train": 1417,
+      "Default": 427,
       "Anubis": 155,
-      "Cobblestone": 2
+      "Cache": 4
     },
-    "last_updated": "2026-02-05T23:27:50.818787"
+    "last_updated": "2026-02-06T07:46:46.763088"
   },
-  "generated_at": "2026-02-05T23:27:50.877928"
+  "generated_at": "2026-02-06T07:46:46.844314"
 }
