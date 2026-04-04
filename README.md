@@ -4,7 +4,7 @@
 
 ## 📊 Current Statistics
 
-**Last Updated:** 2026-02-10 18:43:38 UTC
+**Last Updated:** 2026-04-04 23:56:28 UTC
 
 ### Upcoming Matches
 - **Total matches with odds:** 0/0
@@ -12,9 +12,9 @@
 - **Most frequent teams:** None
 
 ### Historical Results  
-- **Total matches collected:** 23,247
-- **Enriched with details:** 16,835 (72.4%)
-- **Date range:** 1716822000000 to 1770255000000
+- **Total matches collected:** 23,447
+- **Enriched with details:** 18,022 (76.9%)
+- **Date range:** 1710457200000 to 1770255000000
 - **Top events:** ESL Challenger League Season 48 South America, ESL Challenger League Season 47 South America, ESL Challenger League Season 48 North America
 - **Most played maps:** Ancient, Mirage, Nuke
 
